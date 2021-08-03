@@ -1,0 +1,85 @@
+/*.title {*/
+/*    color: inherit;*/
+/*    line-height: inherit;*/
+/*    text-decoration: none;*/
+/*    cursor: pointer;*/
+/*    font-size: 19px;*/
+/*    font-weight: 550;*/
+/*    max-width: 327px;*/
+/*    transition: all 0.5s;*/
+/*}*/
+
+/*.title:hover {*/
+/*    color: red;*/
+/*    text-decoration-line: underline;*/
+/*    transition: all 0.5s;*/
+/*}*/
+
+/*.comercData {*/
+/*    display: flex;*/
+/*    margin: 10px 0 25px 0;*/
+/*}*/
+/*.subtitle {*/
+/*    font-size: 13px;*/
+/*    color: red;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.subtitle:hover {*/
+/*    text-decoration-line: underline;*/
+/*    color: red;*/
+/*    transition: all 0.5s;*/
+/*}*/
+
+/*.comercData p {*/
+/*    font-size: 15px;*/
+/*    padding: 0 10px 0 10px;*/
+/*}*/
+
+/*.data {*/
+/*    font-size: 14px;*/
+/*}*/
+/*.description {*/
+/*    font-size: 15px;*/
+/*    max-width: 420px;*/
+/*}*/
+
+/*.line_hr {*/
+/*    width: 100%;*/
+/*    max-width: 350px;*/
+/*    height: 1px;*/
+/*    background: #000;*/
+/*    text-align: center;*/
+/*    margin-top: 30px;*/
+/*}*/
+/*.text {*/
+/*    font-size: 15px;*/
+/*    margin: 50px 0 30px 0;*/
+/*    cursor: pointer;*/
+/*    transition: all 0.3s;*/
+/*}*/
+
+/*.text:hover {*/
+/*    color: red;*/
+/*    text-decoration-line: underline;*/
+/*}*/
+
+/*.info {*/
+/*    background: #fff;*/
+/*    padding: 10px 20px;*/
+/*}*/
+
+/*.container_item {*/
+/*    width: 100%;*/
+/*    padding: 0 15px;*/
+/*    margin-bottom: 100px;*/
+/*}*/
+
+/*.imgBox {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    display: block;*/
+/*}*/

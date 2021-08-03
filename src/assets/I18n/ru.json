@@ -1,0 +1,13 @@
+{
+    "pages": {
+        "abouts": {
+            "title": "О Нас"
+        },
+        "service": {
+            "title": "Услуги"
+        },
+        "contacts": {
+            "title": "Контакты"
+        }
+    }
+}

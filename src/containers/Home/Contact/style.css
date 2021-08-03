@@ -1,0 +1,344 @@
+.yell {
+    color: #FFCD00;
+}
+
+.center {
+    text-align: center;
+}
+
+.helm {
+    width: 700px;
+    height: 573px;
+    margin-top: 50px;
+}
+
+.back {
+    background-image: url("../../../assets/images/group11.png");
+    display: flex;
+    height: 624px;
+}
+
+.form {
+    padding-left: 30%;
+    padding-top: 70px;
+}
+.both{
+    width: 375px;
+    height: 87px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.head{
+    margin: 20px 25px;
+    width: 50px;
+    height: 48px;
+}
+.hundred{
+    width: 375px;
+    height: 87px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    background-color: #686868;
+    opacity: 0.5;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 252px;
+    height: 42px;
+}
+
+.form input::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.form textarea {
+    width: 547px;
+    resize: none;
+    background-color: #686868;
+    opacity: 0.5;
+    outline: none;
+}
+
+.form textarea::placeholder {
+    color: white;
+    padding-left: 10px;
+}
+
+.form .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 545px;
+}
+
+.form .time:nth-child(2) {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.blue{
+    width: 97px;
+    height: 87px;
+    background-color: #121938;
+}
+.head{
+
+}
+
+.buton {
+    width: 148px;
+    height: 54px;
+    background-color: #FFCD00;
+    color: white;
+    margin-top: 43px;
+}
+.buton:hover{
+    background-color: lightseagreen;
+    transition: all .3s ease-in-out;
+}
+
+.buttonDiv {
+    width: 545px;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 300px){
+    .both{
+        width: 175px;
+        height: 87px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .head{
+        margin: 20px 25px;
+        width: 46px;
+        height: 48px;
+    }
+    .hundred{
+        width: 95px;
+        height: 87px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 400px){
+    .form{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .form input {
+        background-color: #686868;
+        opacity: 0.5;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        max-width: 52px;
+        height: 12px;
+    }
+
+    .form input::placeholder {
+        color: white;
+    }
+
+    .form textarea {
+        max-width: 77px;
+        height: 107px;
+        resize: none;
+        background-color: #686868;
+        opacity: 0.5;
+        outline: none;
+        /*display: none;*/
+    }
+
+    .form textarea::placeholder {
+        color: white;
+    }
+
+    .form .time {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 125px;
+    }
+
+    .form .time:nth-child(2) {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .center{
+        font-size: 16px;
+        margin-top: 45px;
+    }
+    /*.form{*/
+    /*    margin-left: 50px;*/
+    /*    margin-top: 50px;*/
+    /*}*/
+    .form input {
+        background-color: #686868;
+        opacity: 0.5;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        max-width: 152px;
+        height: 12px;
+    }
+
+    .form input::placeholder {
+        color: white;
+    }
+
+    .form textarea {
+        max-width: 327px;
+        height: 107px;
+        resize: none;
+        background-color: #686868;
+        opacity: 0.5;
+        outline: none;
+        /*display: none;*/
+    }
+
+    .form textarea::placeholder {
+        color: white;
+    }
+
+    .form .time {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 325px;
+    }
+
+    .form .time:nth-child(2) {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    /*.buton {*/
+    /*    width: 148px;*/
+    /*    height: 54px;*/
+    /*    background-color: #FFCD00;*/
+    /*    color: white;*/
+    /*    margin-top: 43px;*/
+    /*}*/
+
+    /*.buttonDiv {*/
+    /*    width: 220px;*/
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .form input {
+        background-color: #686868;
+        opacity: 0.5;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        width: 202px;
+        height: 32px;
+    }
+
+    .form input::placeholder {
+        color: white;
+    }
+
+    .form textarea {
+        width: 447px;
+        resize: none;
+        background-color: #686868;
+        opacity: 0.5;
+        outline: none;
+    }
+
+    .form textarea::placeholder {
+        color: white;
+    }
+
+    .form .time {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 445px;
+    }
+
+    .form .time:nth-child(2) {
+        padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    .buton {
+        width: 148px;
+        height: 54px;
+        background-color: #FFCD00;
+        color: white;
+        margin-top: 43px;
+    }
+
+    .buttonDiv {
+        width: 220px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .imgB {
+        display: none;
+    }
+
+    .form {
+        padding-top: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1170px) {
+    .imgB {
+        display: none;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 1490px) {
+    .helm{
+        width: 500px;
+    }
+    .form {
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,81 @@
+.container_header {
+    cursor: pointer;
+    font-family: Proxima Nova;
+    font-style: Regular;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white!important;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s;
+    width: 140px;
+}
+.container_header:hover {
+    color: rgb(80, 76, 76);
+}
+.rotate {
+    transform: rotate(180deg);
+    transition: all 0.3s;
+}
+.container_header:hover svg path {
+    fill: rgb(53, 51, 51);
+}
+.container {
+    z-index: 100;
+    position: relative;
+}
+
+.container svg {
+    margin-left: 15px;
+    transition: all 0.3s;
+}
+
+.white_arrow {
+    color: rgb(0, 0, 0);
+    width: auto;
+}
+.white_arrow svg path {
+    fill: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+
+.arrow {
+    width: 120px;
+    overflow-y: unset !important;
+    padding-left: 4px;
+}
+.arrow path .container_header svg {
+    margin-left: 4px;
+}
+
+.content {
+    position: absolute;
+    overflow-y: scroll;
+    max-height: 300px;
+    margin-left: -19px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.content_item_whate {
+    width: 50%;
+}
+
+.leng {
+    margin-bottom: 0;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 5px 0 10px 0 grey;
+    background: white;
+    text-align: center;
+    margin-left: -15px;
+    padding: 6px 10px;
+}
+.leng:nth-child(2) {
+    margin-top: 15px;
+}
+.fa-caret-down{
+    margin-bottom: 10px;
+}

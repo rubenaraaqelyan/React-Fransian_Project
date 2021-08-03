@@ -1,0 +1,13 @@
+{
+    "pages": {
+        "abouts": {
+            "title": "A`propos de"
+        },
+        "service": {
+            "title": "Prestations de service"
+        },
+        "contacts": {
+            "title": "Contacts"
+        }
+    }
+}

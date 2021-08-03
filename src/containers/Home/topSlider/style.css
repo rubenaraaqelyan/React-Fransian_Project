@@ -1,0 +1,164 @@
+.nextArrow {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    right:15%;
+    z-index: 10;
+    cursor: pointer;
+    transform: rotate(0deg);
+    background: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.nextArrow:hover {
+    background: rgb(173, 171, 171);
+}
+.nextArrow svg path {
+    fill: #fff;
+}
+.prevArrow {
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    z-index: 10;
+    cursor: pointer;
+    /*transform: rotate(360deg);*/
+    background: rgb(94, 92, 92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.prevArrow:hover {
+    background: rgb(173, 171, 171);
+}
+.prevArrow svg path {
+    fill: #fff;
+}
+.slide_arrow {
+    width: 20px;
+    height: 40px;
+    padding: 4px;
+}
+.imgItem {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.slider_item {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    /*position: relative;*/
+}
+.info_slid {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+}
+.yellow{
+    color: yellow;
+}
+.down{
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    margin-left: 200px;
+}
+.same{
+    margin-top: 5px;
+}
+.arrowDiv {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 15%;
+}
+.downd{
+    margin-top: 10px;
+}
+.slyder img {
+    width: 1920px;
+    height: 745px;
+}
+
+@media only screen and (max-width: 520px) {
+    .dropBlock{
+        margin-left: 25px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .right{
+        position: absolute;
+        top: 80%;
+        right: 18%;
+    }
+    .down{
+        position: absolute;
+        top: 95%;
+        right: 1%;
+        margin: 0;
+    }
+  .dropBlock{
+      position: relative;
+      right: 0;
+  }
+    .slyder img {
+        width: 1920px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+.right{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+    .img1{
+        width: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .slyder img {
+        width: 1920px;
+        height: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .slyder img {
+        width: 1920px;
+        height: 600px;
+    }
+}

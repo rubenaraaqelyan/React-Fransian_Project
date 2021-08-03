@@ -1,0 +1,119 @@
+.phneNum {
+    display: flex;
+    justify-content: center;
+}
+.num{
+    text-decoration: none;
+    color: black;
+}
+.num:hover{
+    text-decoration: none;
+    color: blue;
+    transition: all .3s ease-in-out;
+}
+.phneNum p {
+    margin-left: 15px;
+}
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-left: 15px;
+}
+ul li a {
+    color: black;
+    font-size: 18px;
+}
+select {
+    width: 100%;
+    position: relative;
+    appearance: none;
+    font-size: 13px;
+}
+
+.logo{
+    width: 61px;
+    height: 61px;
+}
+
+/*.row{*/
+/*    width: 50px*/
+/*}*/
+
+.langArrow {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.Select_box {
+    /* display: flex; */
+    margin-left: 30px;
+}
+.left_block {
+    display: flex;
+}
+.aaa {
+    color: black;
+    background: #000;
+}
+.hov:hover{
+    color: yellow;
+    transition: all .3s ease-in-out;
+}
+
+@media only screen and (max-width: 400px) {
+    .dropBlock{
+        margin-right: 180px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .img3{
+        max-width: 30%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .img3{
+        max-width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 730px) {
+    .all{
+        background-color: #FFCD00;
+    }
+    .all .img3{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .img3{
+        max-width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 1370px) {
+    .img3{
+        width: 56.9%;
+    }
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+    .img3{
+        width: 77.9%;
+    }
+}
